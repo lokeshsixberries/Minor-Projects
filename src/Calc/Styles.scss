@@ -1,0 +1,86 @@
+.calcCard{
+  height: auto;
+}
+
+.inputDisplay {
+  height: 50px;
+  padding: 0px 10px;
+  border-radius: 5px;
+  border: 1px solid #000042;
+  outline: none;
+  width: 100%;
+  box-shadow: 1px 2px 10px gray;
+}
+.leftPart {
+  background-color: #000042;
+  padding: 10px;
+  box-shadow: 1px 1px 4px gray;
+  height: auto;
+  border-radius: 5px;
+}
+.keyBtns {
+  width: 32%;
+  padding: 10px;
+  border: none;
+  margin: 5px 3px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px gray;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.OperBtns {
+  width: 48.5%;
+  padding: 10px;
+  border: none;
+  margin: 5px 3px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px gray;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}
+.outPutCard{
+  height: 50px;
+  border: 0px;
+  background-color: indigo;
+  box-shadow: 1px 1px 3px gray;
+  color: white;
+  font-weight: 600;
+}
+
+.clearBtn{
+height: 50px !important;
+width: 110% !important;
+position: relative !important;
+left: -20px !important;
+}
+
+.keyBtns:hover,.OperBtns:hover {
+  box-shadow: 1px 1px 10px lavender;
+}
+
+.card-container{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 300px;
+  width: 100%;
+}
+
+@media screen and (max-width:768px){
+  .leftPart{
+    display: block !important;
+    width: 100%;
+  }
+  .rightPart{
+    width: 110%;
+    margin-top: 20px;
+  }
+  .clearBtn{
+    font-size: 15px;
+  }
+  
+}

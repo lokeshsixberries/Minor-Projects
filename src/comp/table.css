@@ -1,0 +1,43 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.tablediv {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1236px;
+  border: 2px solid black;
+}
+
+.table {
+  text-align: center;
+  box-shadow: 1px 1px 5px lighgray;
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+
+.btnStartContainer {
+  margin-left: 100px;
+}
+
+.btnStart {
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  color: red;
+  background-color: white;
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: 10px;
+}
